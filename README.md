@@ -11,6 +11,8 @@ Este projeto realiza testes automatizados de **back-end** (API REST) utilizando 
 
 ## 📁 Estrutura do Projeto
 
+```
+
 playwright-api-tests/
 ├── apis/ # Service Objects com chamadas de API
 │ └── productsApi.js
@@ -25,9 +27,7 @@ playwright-api-tests/
 ├── package.json
 └── README.md
 
---
-
-
+```
 ---
 
 ## ⚙️ Requisitos
