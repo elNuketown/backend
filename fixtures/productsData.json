@@ -1,0 +1,16 @@
+{
+  "validProduct": {
+    "title": "Produto QA",
+    "price": 199.99
+  },
+  "updatedProduct": {
+    "price": 299.99
+  },
+  "invalidMissingTitle": {
+    "price": 50
+  },
+  "invalidNegativePrice": {
+    "title": "Preço Negativo",
+    "price": -10
+  }
+}
