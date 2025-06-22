@@ -1,0 +1,41 @@
+name: Testes pós commit
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Validação de repositório
+      uses: actions/checkout@v2
+
+    - name: Configurando Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+
+    - name: Instalando dependências
+      run: |
+        npx playwright install
+        npm install
+
+    - name: Executando testes
+      run: |
+        npx cucumber-js
+
+    - name: Gerando Relatorio
+      run: |
+        npm run generate-report
+    
+    - name: Upload do relatorio
+      uses: actions/upload-artifact@v4
+      with:
+        name: cucumber-report
+        path: reports/cucumber-report.html
