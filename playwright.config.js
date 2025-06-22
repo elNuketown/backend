@@ -1,11 +1,9 @@
-module.exports = {
-  timeout: 30_000,
-  testDir: 'tests',
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
   reporter: [
-    ['allure-playwright'],
-    ['html', { open: 'never' }],
+    ['list'],
+    ['allure-playwright']
   ],
-  use: {
-    trace: 'on-first-retry',
-  },
-};
+  outputDir: 'allure-results',
+});

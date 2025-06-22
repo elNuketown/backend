@@ -50,13 +50,7 @@ npm install --save-dev allure-commandline
 
 ### 2. Rodar testes:
 
- - Prompts em geral: 
-
- npx playwright test
-
-- BASH / WSL:
-
- DEBUG=pw:api npx playwright test
+npx playwright test
 
 
 ### 3. Gerar relatorios:

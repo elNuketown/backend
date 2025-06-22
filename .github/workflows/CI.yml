@@ -30,15 +30,12 @@ jobs:
       run: |
         npx playwright test
 
-    - name: Gerando Relatorio
-      uses: simple-elf/allure-report-action@v1.6
-      with:
-        allure_results: ./allure-results
-        allure_report:  ./allure-report
+    - name: Gerar relatório Allure
+      run: |
+       npx allure generate allure-results --clean -o allure-report
 
-    - name: Upload do relatório Allure
+    - name: Upload do relatório
       uses: actions/upload-artifact@v4
       with:
         name: allure-report
         path: allure-report
-    
