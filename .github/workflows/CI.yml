@@ -31,7 +31,7 @@ jobs:
         npx playwright test
 
     - name: Gerando Relatorio
-      uses: allure-framework/allure-report-action@v2
+      uses: simple-elf/allure-report-action@v1.6
       with:
         allure_results: ./allure-results
         allure_report:  ./allure-report
