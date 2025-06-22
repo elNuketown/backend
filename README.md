@@ -44,6 +44,8 @@ playwright-api-tests/
 
 npm install
 
+npm install allure-playwright
+
 ### 2. Rodar testes:
 
  - Prompts em geral: 
