@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "playwright": "^1.53.1"
+  },
+  "devDependencies": {
+    "allure-playwright": "^3.3.0"
   }
 }
