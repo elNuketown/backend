@@ -24,6 +24,7 @@ jobs:
     - name: Instalando dependências
       run: |
         npm install
+        npm ci
 
     - name: Executando testes
       run: |
