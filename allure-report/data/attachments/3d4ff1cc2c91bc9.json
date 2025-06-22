@@ -1,0 +1,25 @@
+{
+  "url": "https://dummyjson.com/products/9999",
+  "status": 404,
+  "headers": {
+    "access-control-allow-origin": "*",
+    "content-length": "46",
+    "content-type": "application/json; charset=utf-8",
+    "date": "Sun, 22 Jun 2025 23:37:21 GMT",
+    "etag": "W/\"2e-aAyi0L16NPwZIfZx0JFalAd4Tew\"",
+    "server": "railway-edge",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-dns-prefetch-control": "off",
+    "x-download-options": "noopen",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "Cats on Keyboards",
+    "x-railway-edge": "railway/us-east4-eqdc4a",
+    "x-railway-request-id": "Z9-3MihOQ5ek3CZVCx5-qw",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "x-ratelimit-reset": "1750635452",
+    "x-xss-protection": "1; mode=block"
+  }
+}
