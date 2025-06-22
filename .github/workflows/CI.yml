@@ -23,7 +23,6 @@ jobs:
 
     - name: Instalando dependências
       run: |
-        npx playwright install
         npm install
 
     - name: Executando testes
