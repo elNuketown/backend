@@ -46,6 +46,8 @@ npm install
 
 npm install allure-playwright
 
+npm install --save-dev allure-commandline
+
 ### 2. Rodar testes:
 
  - Prompts em geral: 

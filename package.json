@@ -13,6 +13,7 @@
     "playwright": "^1.53.1"
   },
   "devDependencies": {
+    "allure-commandline": "^2.34.0",
     "allure-playwright": "^3.3.0"
   }
 }
