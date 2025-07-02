@@ -12,12 +12,15 @@ backend/
 │   └── workflows/
 │       └── CI.yml
 ├── apis/
-│   └── Api.js
+│   └── loginAPI.js
+│   └── productsAPI.js
 ├── fixtures/
 │   ├── customFixtures.js
+│   └── loginData.json
 │   └── productsData.json
 ├── tests/
-│   └── api.spec.js
+│   └── login.spec.js
+│   └── product.spec.js
 ├── utils/
 │   └── attachResponse.js
 ├── .gitignore
